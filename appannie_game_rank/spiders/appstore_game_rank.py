@@ -30,7 +30,7 @@ class apple_game_rank(Spider):
         return FormRequest.from_response(
         response,
         meta={'cookiejar': response.meta['cookiejar']},
-        formdata={"csrfmiddlewaretoken":csrfmiddlewaretoken,"next":"/dashboard/home/","username": "appledev@yodo1.com", "password": "Ops20150601"},
+        formdata={"csrfmiddlewaretoken":csrfmiddlewaretoken,"next":"/dashboard/home/","username": "lhj19901121@163.com", "password": "Yodo1zuihaole"},
         callback=self.after_login,
             dont_filter=True)
 
